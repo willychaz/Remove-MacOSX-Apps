@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Remove Numbers app
+find /Applications -name Numbers.app -type d -exec rm -r {} +
+
+# Remove Pages app
+find /Applications -name Pages.app -type d -exec rm -r {} +
+
+exit 0
